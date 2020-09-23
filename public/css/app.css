@@ -1,11 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@200;
 
-/*!
- * Bootstrap v4.5.2 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+300;400;600;700;800;900&display=swap);@charset "UTF-8";
 
 :root {
   --blue: #007bff;
@@ -13991,12 +13986,13 @@ p {
 
 b {
   letter-spacing: 0;
-  color: #f1c111;
+  color: #d14045;
 }
 
 strong {
   letter-spacing: 0;
-  color: #f1c111;
+  color: #d14045;
+  font-weight: 700;
 }
 
 .quote {
@@ -14073,19 +14069,19 @@ a {
 }
 
 a:hover {
-  color: #f1c111;
+  color: #d14045;
   outline: none;
   text-decoration: none;
 }
 
 a:active {
-  color: #f1c111;
+  color: #d14045;
   outline: none;
   text-decoration: none;
 }
 
 a:focus {
-  color: #f1c111;
+  color: #d14045;
   outline: none;
   text-decoration: none;
 }
@@ -14102,20 +14098,20 @@ a:focus {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #f1c111;
+  background: #d14045;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background: #f1c111;
+  background: #d14045;
 }
 
 ::-moz-selection {
-  background: #f1c111;
+  background: #d14045;
   color: #ffffff;
 }
 
 ::selection {
-  background: #f1c111;
+  background: #d14045;
   color: #ffffff;
 }
 
@@ -14164,11 +14160,15 @@ a:focus {
 }
 
 .navbar .nav-link:hover {
-  color: #f1c111;
+  color: #d14045;
 }
 
 .navbar .nav-link.active {
-  color: #f1c111;
+  color: #d14045;
+}
+
+.navbar.scrolled {
+  box-shadow: 0 0 20px #00000028;
 }
 
 .navbar.scrolled img {
@@ -14187,19 +14187,19 @@ a:focus {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.contact {
-  border: 2px solid #f1c111;
+  border: 2px solid #d14045;
   border-radius: 100px;
-  color: #f1c111;
+  color: #d14045;
   padding: 0.6em 2em 0.8em 2em;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.contact:hover {
-  background: #f1c111;
+  background: #d14045;
   color: #ffffff;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.contact.active {
-  background: #f1c111;
+  background: #d14045;
   color: #ffffff;
 }
 
@@ -14414,7 +14414,7 @@ a:focus {
   width: 0;
   height: 0;
   border-width: 0 16px 16px 0;
-  border-color: transparent #f1c111 transparent transparent;
+  border-color: transparent #d14045 transparent transparent;
   border-style: solid;
   position: absolute;
   left: 0;
@@ -14472,7 +14472,7 @@ a:focus {
   font-size: 18px;
   line-height: 0px;
   padding: 1.5em 1.3em;
-  background: #f1c111;
+  background: #d14045;
 }
 
 .contact-form .form-control {
@@ -14503,7 +14503,7 @@ a:focus {
 }
 
 .site-footer a:hover {
-  color: #f1c111;
+  color: #d14045;
 }
 
 .site-footer .social-icon {
@@ -14511,7 +14511,7 @@ a:focus {
 }
 
 .footer-icon {
-  color: #f1c111;
+  color: #d14045;
 }
 
 .footer-link {

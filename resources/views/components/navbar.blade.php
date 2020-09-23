@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
+    <div class=" container">
         <a class="navbar-brand" href="index.html">
             <img src="{{asset('images/logo.svg')}}" alt="Logo">
         </a>
