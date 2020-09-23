@@ -23,6 +23,7 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
+        "@icon/icofont": "^1.0.1-alpha.1",
         "aos": "^2.3.4",
         "font-awesome": "^4.7.0",
         "owl.carousel": "^2.3.4"

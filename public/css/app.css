@@ -14350,10 +14350,7 @@ a:focus {
 
 .project-wrapper {
   position: relative;
-}
-
-.project-wrapper img {
-  border-radius: 5px;
+  height: 300px;
 }
 
 .project-info {
@@ -14364,7 +14361,10 @@ a:focus {
   right: 32px;
   left: 32px;
   width: 90%;
-  padding: 32px;
+  height: 30vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
 }
 
 .project-info small {
@@ -14376,6 +14376,7 @@ a:focus {
 
 .project-info a {
   color: #057a8d;
+  text-align: center;
 }
 
 .project-info .project-icon {
@@ -14562,7 +14563,7 @@ a:focus {
 
 @media screen and (max-width: 991px) {
   .hero {
-    padding-top: 14em;
+    padding-top: 6em;
   }
 
   .hero-text {
@@ -14639,5 +14640,49 @@ a:focus {
   .copyright-text {
     margin: 2.5em 0 1em 0;
   }
+}
+
+.modal-dialog .modal-content {
+  background: #171819;
+}
+
+.modal-dialog .modal-header,
+.modal-dialog .modal-body,
+.modal-dialog .modal-footer {
+  border: none;
+  background: none;
+  color: #ffffff;
+}
+
+.modal-dialog .close {
+  color: #ffffff;
+  text-shadow: none;
+}
+
+.modal-dialog .close i {
+  font-size: 14px;
+}
+
+.modal-dialog .modal-title {
+  font-size: clamp(1.2rem, 5vmin, 1rem);
+}
+
+.modal-dialog .modal-body {
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  padding-bottom: 1.8rem;
+}
+
+.modal-dialog .modal-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button:focus,
+button:active,
+button:hover {
+  outline: none;
+  box-shadow: none;
 }
 

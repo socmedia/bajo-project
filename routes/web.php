@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LandingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,4 @@ Route::get('/', function () {
     return abort(404);
 });
 
-Route::get('/demo', function () {
-    return view('pages.index');
-});
+Route::get('/demo', [LandingController::class, 'index']);

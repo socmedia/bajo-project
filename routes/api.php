@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\GeneralApiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +16,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:api')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
+
+Route::get('track', [GeneralApiController::class, 'analitycs'])->name('api.track');
+
+Route::get('data', [GeneralApiController::class, 'programs'])->name('api.datas');
+
+Route::get('data/{id}/get', [GeneralApiController::class, 'showProgram'])->name('api.datas.show');

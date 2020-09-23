@@ -41,9 +41,8 @@
             <div class="col-lg-4 mx-lg-auto col-md-6 col-12" data-aos="fade-up" data-aos-delay="500">
 
                 <ul class="footer-link">
-                    <li><a href="#">Stories</a></li>
-                    <li><a href="#">Work with us</a></li>
-                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Aktivitas</a></li>
+                    <li><a href="#">Gabung bersama kami</a></li>
                 </ul>
             </div>
 
@@ -51,6 +50,7 @@
                 <ul class="social-icon">
                     <li><a href="#" class="fa fa-instagram"></a></li>
                     <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-youtube"></a></li>
                 </ul>
             </div>
 
