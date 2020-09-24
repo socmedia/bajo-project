@@ -27,9 +27,10 @@
                             <ol class="mb-0" data-aos="fade-up">
                                 <li class="py-2">Menjadikan kota Surakarta mempunyai harkat dan martabat.</li>
                                 <li class="py-2">Menjadikan kota Surakarta sebagai kota budaya, kota santun</li>
-                                <li class="py-2">Mewujudkan kota Surakarta yang gemah ripah loh jinawi tata titi tentrem
-                                    kerta
-                                    raharja</li>
+                                <li class="py-2">
+                                    Mewujudkan kota Surakarta yang gemah ripah loh jinawi tata titi tentrem kerta
+                                    raharja
+                                </li>
                             </ol>
                         </div>
                     </div>

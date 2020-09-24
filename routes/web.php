@@ -14,9 +14,9 @@ use App\Http\Controllers\LandingController;
 |
 */
 
-Route::get('/', function () {
-    // return view('pages.index');
-    return abort(404);
-});
+// Route::get('/', function () {
+//     //return view('pages.index');
+//     return abort(404);
+// });
 
-Route::get('/demo', [LandingController::class, 'index']);
+Route::get('/', [LandingController::class, 'index']);

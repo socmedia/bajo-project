@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top">
     <div class=" container">
         <a class="navbar-brand" href="index.html">
-            <img src="{{asset('images/logo.svg')}}" alt="Logo">
+            <img src="{{asset('images/logo bajo.png')}}" alt="Logo">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -21,7 +21,7 @@
                     <a href="#project" class="nav-link smoothScroll">Program</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link smoothScroll">Contact</a>
+                    <a href="#contact" class="nav-link smoothScroll">Hubungi Kami</a>
                 </li>
             </ul>
         </div>

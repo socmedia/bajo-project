@@ -413,6 +413,7 @@ a {
                 width: 40px;
             }
         }
+
     }
 
     .owl-dots {
@@ -449,51 +450,45 @@ a {
 .project-wrapper {
     position: relative;
     height: 300px;
-}
+    text-align: center;
+    overflow: hidden;
 
-.project-info {
-    background: $white-color;
-    border-radius: $border-radius-small;
-    position: absolute;
-    bottom: 32px;
-    right: 32px;
-    left: 32px;
-    width: 90%;
-    height: 30vh;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-
-    small {
-        font-family: Plain-Bold;
-        color: $gray-color;
-        position: relative;
-        top: 2px;
-    }
-
-    a {
-        color: $primary-color;
+    .project-info {
+        background: $white-color;
+        border-radius: $border-radius-small;
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        padding: 1rem .7rem;
+        display: block;
         text-align: center;
+
+        a {
+            color: $primary-color;
+            text-align: center;
+        }
+
+        .project-icon {
+            background: $primary-color;
+        }
     }
 
     .project-icon {
-        background: $primary-color;
+        position: absolute;
+        right: 30px;
+        top: 40px;
+        background: $dark-color;
+        border-radius: $border-radius-large;
+        color: $white-color;
+        font-size: $h2-font-size;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        padding-left: 5px;
     }
-}
-
-.project-icon {
-    position: absolute;
-    right: 30px;
-    top: 40px;
-    background: $dark-color;
-    border-radius: $border-radius-large;
-    color: $white-color;
-    font-size: $h2-font-size;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    padding-left: 5px;
 }
 
 .list-detail {
@@ -534,6 +529,10 @@ a {
 .about {
     position: relative;
     overflow: hidden;
+
+    @include media-breakpoint-down(sm) {
+        padding-top: 0;
+    }
 
     &-info {
         p {
@@ -645,10 +644,14 @@ a {
         display: inline-block;
         list-style: none;
 
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+
         a {
             text-decoration: none;
             display: inline-block;
-            font-size: $base-font-size;
+            font-size: 25px;
             margin: 10px;
             text-align: center;
         }
@@ -807,5 +810,29 @@ button {
     &:hover {
         outline: none;
         box-shadow: none;
+    }
+}
+
+.float-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: .7rem 1rem;
+    background: #19a08b;
+    box-shadow: 0 0 10px #00000028;
+    color: $white-color;
+    font-size: .9rem;
+    border-radius: 8px;
+    z-index: 999;
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: $white-color;
+    }
+
+    i {
+        margin-right: 10px;
+        font-size: 1.2rem;
     }
 }

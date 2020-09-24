@@ -12,6 +12,7 @@ class LandingController extends Controller
     public function index()
     {
         $programs = collect($this->getAll());
-        return view('pages.index', compact('programs'));
+        $yt = 'asd';
+        return view('pages.index', compact('programs', 'yt'));
     }
 }

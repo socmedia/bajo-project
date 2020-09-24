@@ -22,6 +22,10 @@ use App\Http\Controllers\Api\GeneralApiController;
 
 Route::get('track', [GeneralApiController::class, 'analitycs'])->name('api.track');
 
+Route::get('yt-ch', [GeneralApiController::class, 'ytChannel'])->name('api.yt-ch');
+
+Route::get('yt-sc', [GeneralApiController::class, 'ytSearch'])->name('api.yt-sc');
+
 Route::get('data', [GeneralApiController::class, 'programs'])->name('api.datas');
 
 Route::get('data/{id}/get', [GeneralApiController::class, 'showProgram'])->name('api.datas.show');
