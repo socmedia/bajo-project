@@ -15,7 +15,7 @@
                             <h2 class="mb-4" data-aos="fade-up"><strong>Visi</strong></h2>
 
                             <p class="mb-0 text-uppercase" data-aos="fade-up">
-                                Tercakupnya sandang, pangan, dan papan di kota surakarta
+                                Tercukupinya sandang, pangan, dan papan di kota surakarta
                             </p>
                         </div>
                     </div>

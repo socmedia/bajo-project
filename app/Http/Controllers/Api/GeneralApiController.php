@@ -40,18 +40,15 @@ class GeneralApiController extends Controller
     {
         $params = [
             'part' => 'snippet',
-            'max' => 5,
+            'max' => 6,
+            'order' => 'date',
             'channelId' => config('api.key.yt_id'),
-            'key' => config('api.key.yt_key')
+            'key' => config('api.key.yt_key'),
         ];
 
-        $res = $this->fetchYouTube('https://www.googleapis.com/youtube/v3/search?part=' . $params['part'] . '&maxResults=' . $params['max'] . '&channelId=' . $params['channelId'] . '&key=' . $params['key']);
+        $res = $this->fetchYouTube('https://www.googleapis.com/youtube/v3/search?part=' . $params['part'] . '&maxResults=' . $params['max'] . '&order=' . $params['order'] . '&channelId=' . $params['channelId'] . '&key=' . $params['key']);
 
-        $data = [
-            'channelName' => $res->items[0]->snippet->localized->title,
-        ];
-
-        return json_encode($data);
+        return $res['items'];
     }
 
     public function programs()

@@ -11,14 +11,14 @@
                 </h3>
                 <ul class="social-icon">
                     <li data-aos="fade-down" data-aos-delay="200">
-                        <a href="https://instagram.com/bajo.untuksolo?igshid=t4ucsyd953h5" class="fa fa-instagram"></a>
+                        <a href="https://instagram.com/bajo.untuksolo?igshid=t4ucsyd953h5"target="_blank" class="fa fa-instagram"></a>
                     </li>
                     <li data-aos="fade-down" data-aos-delay="400">
                         <a href="https://www.facebook.com/BAJO-Untuk-Solo-100986695103908/?modal=admin_todo_tour"
-                            class="fa fa-facebook"></a>
+                           target="_blank" class="fa fa-facebook"></a>
                     </li>
                     <li data-aos="fade-down" data-aos-delay="600">
-                        <a href="https://www.youtube.com/channel/UCB1_DIlHpab_NilJPI5Wx2A/" class="fa fa-youtube"></a>
+                        <a href="https://www.youtube.com/channel/UCB1_DIlHpab_NilJPI5Wx2A/"target="_blank" class="fa fa-youtube"></a>
                     </li>
                 </ul>
             </div>
