@@ -2,6 +2,8 @@ html,
 body {
     background: $white-color;
     font-family: 'Nunito sans', sans-serif;
+    width: 100%;
+
 }
 
 h1 {
@@ -555,6 +557,133 @@ a {
                 width: 80%;
             }
         }
+    }
+}
+
+#ig-feed {
+    width: 100%;
+    padding: 5em 0;
+    box-sizing: border-box;
+
+    .ig__header {
+        display: flex;
+        width: 100%;
+
+        .ig__ava {
+            padding: 10px;
+
+            img {
+                width: 80px;
+                border-radius: 50%;
+
+                @include media-breakpoint-up(md) {
+                    width: 150px;
+                }
+            }
+        }
+
+        .ig__info {
+            padding: 10px;
+            width: 100%;
+            align-self: center;
+
+            a {
+                font-weight: 700;
+
+                @include media-breakpoint-up(md) {
+                    font-size: 35px;
+                }
+            }
+
+            .ig__posts,
+            .ig__followers,
+            .ig__following {
+                h4 {
+                    margin-bottom: 0;
+                    color: $dark-color;
+                    font-weight: 700;
+
+                    @include media-breakpoint-up(md) {
+                        font-size: 25px;
+                    }
+                }
+
+                small {
+                    @include media-breakpoint-up(md) {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .ig__bio {
+        font-family: 'Nunito sans', sans-serif;
+        font-size: 14px;
+
+        @include media-breakpoint-up(md) {
+            font-size: 18px;
+        }
+    }
+
+    .ig__body {
+        padding: 10px;
+    }
+}
+
+#yt-feed {
+    width: 100%;
+    padding: 5em 0;
+    box-sizing: border-box;
+
+    .yt__header {
+        display: flex;
+        width: 100%;
+        margin-bottom: 2vmin;
+
+        .yt__ava {
+            padding: 10px;
+
+            img {
+                width: 80px;
+                border-radius: 50%;
+
+                @include media-breakpoint-up(md) {
+                    width: 150px;
+                }
+            }
+        }
+
+        .yt__info {
+            padding: 10px;
+            width: 100%;
+            align-self: center;
+            display: block;
+
+            .yt__username {
+                text-transform: none;
+                font-weight: 700;
+                color: $dark-color;
+
+                @include media-breakpoint-up(md) {
+                    font-size: 35px;
+                }
+            }
+
+            .yt__subs {
+                font-weight: 600;
+                color: $gray-color !important;
+
+                @include media-breakpoint-up(md) {
+                    font-size: 20px;
+                }
+            }
+
+        }
+    }
+
+    iframe {
+        height: 100%;
     }
 }
 
